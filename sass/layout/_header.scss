@@ -1,0 +1,32 @@
+.header {
+  grid-row: 1/2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.heading {
+  &-1 {
+    font-size: 4rem;
+    color: $dark-blue;
+    font-weight: 600;
+
+    @include mobile {
+      font-size: 3rem;
+    }
+  }
+
+  &-2 {
+    font-size: 3rem;
+    color: $gray;
+    font-weight: 200;
+
+    @include mobile {
+      font-size: 2rem;
+    }
+  }
+}

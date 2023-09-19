@@ -1,0 +1,16 @@
+.header__text,
+.card__text--description,
+.attribution {
+  font-size: 1.5rem;
+  color: $gray;
+  font-weight: 400;
+}
+
+.attribution {
+  text-align: center;
+
+  a {
+    text-decoration: none;
+    color: $dark-blue;
+  }
+}

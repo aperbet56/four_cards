@@ -1,0 +1,13 @@
+// Mixin breakpoint mobile
+@mixin mobile {
+  @media screen and (max-width: map-get($breakpoints, mobile)) {
+    @content;
+  }
+}
+
+// Mixin breakpoint tablette
+@mixin tablet {
+  @media screen and (max-width: map-get($breakpoints, tablet)) {
+    @content;
+  }
+}
